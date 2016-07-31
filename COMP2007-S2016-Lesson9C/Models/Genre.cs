@@ -24,6 +24,7 @@ namespace COMP2007_S2016_Lesson9C.Models
             this.Name = Name;
         }
 
+        public int GenreID { get; set; }
         public string Name { get; set; }
     }
 }
